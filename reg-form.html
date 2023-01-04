@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+
+        <h1>Registration Form</h1>
+        <p>Fill out the form carefully for registration</p>
+
+        <fieldset>
+            <h3>Student Name</h3>
+
+            <input type="text" id="firstName" class="form-inline" placeholder="Enter your first name">
+            
+            <input type="text" id="middleName" class="form-inline" placeholder="Enter your middle name">
+           
+            <input type="text" id="lastName" class="form-inline" placeholder="Enter your last name">
+
+            <br>
+            <label for="firstName">First name</label>
+            <label for="middleName" class="midName">Middle name</label>
+            <label for="lastName" class="lstName">Last name</label>
+          
+        </fieldset>
+
+        <fieldset class="birth_gender">
+           <h3>Birth Date</h3>
+           <!-- <input type="month" name="" id="birth"> -->
+           <input type="date" name="" id="birth">
+
+           </fieldset>
+
+<fieldset>
+          <h3>Select your Gender</h3>
+
+          <label for="male">
+            <input type="radio" name="gender" id="male">
+          Male
+        </label>
+        <label for="female">
+            <input type="radio" name="gender" id="female">
+           Female
+        </label>
+        <label for="others">
+            <input type="radio" name="gender" id="others">
+            Others
+        </label>
+          
+        </fieldset>
+
+        <fieldset>
+            <h3>Your Address</h3>
+            <textarea name="" id="" cols="25" rows="5"></textarea>
+        </fieldset>
+
+        <button type="submit" class="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

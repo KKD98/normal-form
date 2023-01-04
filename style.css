@@ -1,0 +1,43 @@
+
+form{
+    /* padding: 10px; */
+    border: 2px solid grey;
+    box-shadow: 5px 5px 5px 5px;
+    width: 700px;
+    margin: auto;
+    padding: 5px;
+   
+   
+}
+
+p{
+    color: dimgrey;
+}
+
+.form-inline {  
+    display:inline-block;
+    /* flex-flow: row wrap; */
+    /* align-items: center; */
+  }
+
+  .midName{
+    margin-left: 110px;
+  }
+
+  .lstName{
+    margin-left: 93px;
+  }
+
+  label{
+    color: darkslategrey;
+  }
+
+  /* .birth_gender{
+    display: inline;
+  } */
+
+
+  .submit{
+    padding: 5px;
+    margin: 15px;
+  }
